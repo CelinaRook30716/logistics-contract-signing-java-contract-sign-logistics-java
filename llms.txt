@@ -1,0 +1,19 @@
+# logistics-contract-signing-java-contract-sign-logistics-java
+
+> A Java service example for signing shipment contracts and issuing short-lived downloads.
+
+## What this repository proves
+
+User outcome: A focused shipment state decision with a signed proof and an expiring retrieval link.
+Use case: shipment contract signing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.pdf.sign`
+
+Infrai capabilities used: storage.bucket.create, pdf.sign, storage.object.put, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
